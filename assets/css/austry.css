@@ -1401,7 +1401,7 @@ ul {
 
 .mobile-nav__content {
   width: 300px;
-  background-color: var(--austry-black);
+  background-color: var(--austry-main);
   z-index: 10;
   position: relative;
   height: 100%;
@@ -1482,7 +1482,7 @@ ul {
   -ms-flex-pack: justify;
   justify-content: space-between;
   line-height: 30px;
-  color: #ffffff;
+  color: var(--austry-green);
   font-size: 14px;
   font-family: var(--austry-font);
   font-weight: 500;
@@ -1590,7 +1590,7 @@ ul {
 
 .mobile-nav__social a {
   font-size: 16px;
-  color: var(--austry-white);
+  color: var(--austry-green);
   -webkit-transition: 500ms;
   transition: 500ms;
 }
@@ -1640,7 +1640,7 @@ ul {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--austry-base);
+  background-color: var(--austry-green);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
