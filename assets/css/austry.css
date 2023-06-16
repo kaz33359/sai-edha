@@ -204,7 +204,7 @@ ul {
   display: inline-block;
   font-size: 16px;
   line-height: 16px;
-  color: var(--austry-gray);
+  color: var(--austry-main);
   font-weight: 600;
 }
 
@@ -220,7 +220,7 @@ ul {
 
 .section-title__title {
   margin: 0;
-  color: var(--austry-black);
+  color: var(--austry-green);
   font-size: 50px;
   line-height: 60px;
   font-weight: 800;
@@ -461,14 +461,14 @@ ul {
   animation-fill-mode: both;
   -webkit-animation-name: flipInY;
   animation-name: flipInY;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-image: url(../images/loader.png);
+  background-image: url(../images/sai/navLogo.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 60px auto;
+  background-size: 120px auto;
   width: 100%;
   height: 100%;
 }
@@ -491,7 +491,7 @@ ul {
 }
 
 .scroll-to-top i {
-  color: var(--austry-white);
+  color: var(--austry-green);
   font-size: 18px;
   line-height: 50px;
   -webkit-transition: all 0.4s ease;
@@ -830,7 +830,7 @@ ul {
 }
 
 .main-header__contact-list li .text p a:hover {
-  color: var(--austry-base);
+  color: var(--austry-main);
 }
 
 .main-header__top-right {
@@ -882,7 +882,7 @@ ul {
 }
 
 .main-menu__btn a:hover {
-  background-color: var(--austry-black);
+  background-color: var(--austry-main);
 }
 
 .main-menu__call {
@@ -937,7 +937,7 @@ ul {
 }
 
 .main-menu__call-number a:hover {
-  color: var(--austry-base);
+  color: var(--austry-main);
 }
 
 .main-menu__wrapper-inner {
@@ -5797,7 +5797,7 @@ ul {
 }
 
 .testimonial-one__left .section-title__tagline {
-  color: var(--austry-black);
+  color: var(--austry-main);
 }
 
 .testimonial-one__left .section-title__tagline::before {
@@ -6242,8 +6242,8 @@ ul {
 .site-footer__top {
   position: relative;
   display: block;
-  padding-top: 120px;
-  padding-bottom: 111px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
 .footer-widget__about {
@@ -6411,7 +6411,7 @@ ul {
 }
 
 .footer-widget__Contact-list li .text p a:hover {
-  color: var(--austry-base);
+  color: var(--austry-white);
   transition: all 500ms ease;
 }
 
@@ -6482,8 +6482,8 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  justify-content: flex-end;
-  margin-top: 30px;
+  justify-content: flex-start;
+  margin-top: 50px;
 }
 
 .site-footer__social a {
@@ -6568,13 +6568,13 @@ ul {
 }
 
 .site-footer__bottom-text a {
-  color: var(--austry-green);
+  color: var(--austry-white);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .site-footer__bottom-text a:hover {
-  color: var(--austry-white);
+  color: var(--austry-green);
 }
 
 .site-footer__bottom-menu {
@@ -11017,8 +11017,8 @@ ul {
 }
 
 .services-four__btn {
-  background-color: var(--austry-bdr-color);
-  color: var(--austry-gray);
+  background-color: var(--austry-green);
+  color: var(--austry-white);
 }
 
 /*--------------------------------------------------------------
@@ -13591,7 +13591,7 @@ ul {
   left: 0;
   right: 0;
   content: "";
-  background-color: rgba(var(--austry-black-rgb), .30);
+  /* background-color: rgba(var(--austry-black-rgb), .30); */
   -webkit-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
   -ms-transform: perspective(400px) rotateX(90deg) scaleY(0.5);
   transform: perspective(400px) rotateX(90deg) scaleY(0.5);
@@ -14645,14 +14645,14 @@ ul {
   bottom: 0;
   right: -10000000px;
   left: 99%;
-  background-color: var(--austry-base);
+  background-color: var(--austry-green);
   z-index: -1;
 }
 
 .thm-breadcrumb {
   position: relative;
   display: block;
-  background-color: var(--austry-base);
+  background-color: var(--austry-green);
   padding-left: 80px;
   /* clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%); */
   z-index: 1;
@@ -14696,7 +14696,7 @@ ul {
 }
 
 .thm-breadcrumb li:hover a {
-  color: var(--austry-black);
+  color: var(--austry-main);
   opacity: 1;
 }
 
@@ -14738,7 +14738,7 @@ ul {
   right: -47px;
   width: 17px;
   height: 90px;
-  background-color: var(--austry-base);
+  background-color: var(--austry-green);
 }
 
 .about-seven__img:after {
@@ -14748,7 +14748,7 @@ ul {
   right: 0px;
   width: 17px;
   height: 90px;
-  background-color: var(--austry-base);
+  background-color: var(--austry-green);
 }
 
 .about-seven__img img {
@@ -14777,7 +14777,7 @@ ul {
 
 .about-seven__text-1 {
   font-size: 20px;
-  color: var(--austry-base);
+  color: var(--austry-main);
   font-weight: 800;
   text-transform: uppercase;
   line-height: 30px;
@@ -14817,7 +14817,7 @@ ul {
   justify-content: center;
   height: 18px;
   width: 18px;
-  background-color: var(--austry-base);
+  background-color: var(--austry-green);
   border-radius: 50%;
   font-size: 10px;
   color: var(--austry-white);
@@ -14926,7 +14926,7 @@ ul {
   left: 0;
   right: 0;
   height: 480px;
-  background-color: var(--austry-black);
+  background-color: var(--austry-main);
   z-index: -1;
 }
 
@@ -14945,7 +14945,7 @@ ul {
 }
 
 .about-page-team .section-title__tagline {
-  color: #949ca9;
+  color: var(--austry-green);
 }
 
 .about-page-team .section-title__title {
@@ -15014,7 +15014,7 @@ ul {
 }
 
 .services-page-four .services-four__icon {
-  background-color: #ff4040;
+  background-color: var(--austry-green);
 }
 
 .services-page-four .services-four__title a:hover {
@@ -15026,7 +15026,7 @@ ul {
 }
 
 .services-page-four .services-four__btn:after {
-  background-color: #ff4040;
+  background-color: var(--austry-main);
 }
 
 /*--------------------------------------------------------------
@@ -16815,7 +16815,7 @@ ul {
 }
 
 .contact-info__single:hover {
-  border: 1px solid var(--austry-base);
+  border: 1px solid var(--austry-main);
 }
 
 .contact-info__title {
@@ -16837,7 +16837,7 @@ ul {
 }
 
 .contact-info__text a:hover {
-  color: var(--austry-base);
+  color: var(--austry-main);
 }
 
 .contact-info__btn-box {
@@ -16859,7 +16859,7 @@ ul {
 }
 
 .contact-info__single:hover .contact-info__btn-box:before {
-  background-color: var(--austry-base);
+  background-color: var(--austry-main);
 }
 
 .contact-info__btn {
@@ -16893,7 +16893,7 @@ ul {
 }
 
 .contact-info__single:hover .contact-info__btn:after {
-  background-color: var(--austry-base);
+  background-color: var(--austry-main);
 }
 
 .contact-info__btn a {
@@ -16901,12 +16901,12 @@ ul {
   display: flex;
   align-items: center;
   font-size: 12px;
-  color: var(--austry-gray);
+  color: var(--austry-white);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 12px;
-  background-color: var(--austry-bdr-color);
+  background-color: var(--austry-green);
   width: 160px;
   height: 36px;
   padding-left: 53px;
@@ -16931,7 +16931,7 @@ ul {
   position: relative;
   display: inline-block;
   font-size: 62px;
-  color: var(--austry-base);
+  color: var(--austry-green);
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
   -webkit-transition-delay: 0.1s;
@@ -17024,12 +17024,12 @@ ul {
 .contact-page-form__btn {
   display: block;
   border: none;
-  background-color: var(--austry-base);
+  background-color: var(--austry-green);
   margin: 0 auto;
 }
 
 .contact-page-form__btn::after {
-  background-color: var(--austry-black);
+  background-color: var(--austry-main);
 }
 
 /*--------------------------------------------------------------
