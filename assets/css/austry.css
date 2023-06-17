@@ -1342,7 +1342,7 @@ ul {
 }
 
 .main-menu .mobile-nav__toggler:hover {
-  color: var(--austry-base);
+  color: var(--austry-green);
 }
 
 @media (min-width: 1200px) {
