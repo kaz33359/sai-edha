@@ -877,7 +877,8 @@
     }
 
     .services-one__carousel.owl-theme .owl-nav {
-        display: none;
+        /* display: none; */
+        top: -148px;
     }
 
     .project-one__right {
