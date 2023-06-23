@@ -4864,8 +4864,8 @@ ul {
 
 .services-one__carousel.owl-theme .owl-nav .owl-next:hover,
 .services-one__carousel.owl-theme .owl-nav .owl-prev:hover {
-  border: 2px solid var(--austry-base);
-  color: var(--austry-base);
+  border: 2px solid var(--austry-main);
+  color: var(--austry-main);
 }
 
 /*--------------------------------------------------------------
