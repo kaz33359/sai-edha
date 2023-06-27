@@ -10998,7 +10998,7 @@ ul {
 .services-four__content {
   position: relative;
   display: block;
-  padding: 0 50px 44px;
+  padding: 0 50px 20px;
   margin-top: -3px;
   z-index: 2;
 }
@@ -11026,6 +11026,7 @@ ul {
   position: relative;
   display: block;
   text-align: right;
+  padding: 20px;
 }
 
 .services-four__btn {
@@ -16217,7 +16218,7 @@ ul {
 }
 
 .service-details__category-list li a {
-  color: var(--austry-black);
+  color: var(--austry-green);
   font-size: 16px;
   font-weight: 800;
   position: relative;
@@ -16227,17 +16228,17 @@ ul {
   background: none;
   padding: 9px 30px 14px;
   border: 1px solid transparent;
-  background-color: var(--austry-extra);
+  background-color: var(--austry-main);
   letter-spacing: -0.02em;
   z-index: 1;
 }
 
 .service-details__category-list li:hover a {
-  color: var(--austry-black);
+  color: var(--austry-main );
 }
 
 .service-details__category-list li.active a {
-  color: var(--austry-black);
+  color: var(--austry-main);
 }
 
 .service-details__category-list li a::before {
@@ -16247,7 +16248,7 @@ ul {
   left: 0;
   bottom: 0;
   width: 2px;
-  background-color: var(--austry-base);
+  background-color: var(--austry-main);
   transform: scaleY(0);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -16295,7 +16296,7 @@ ul {
   transform: translateY(-50%) scale(1);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  color: var(--austry-black);
+  color: var(--austry-green);
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16310,7 +16311,7 @@ ul {
 }
 
 .service-details__category-list li a:hover span {
-  color: var(--austry-base);
+  color: var(--austry-main);
   -webkit-transform: translateY(-50%) scale(1);
   transform: translateY(-50%) scale(1);
 }
@@ -16318,17 +16319,17 @@ ul {
 .service-details__category-list li.active a span {
   -webkit-transform: translateY(-50%) scale(1);
   transform: translateY(-50%) scale(1);
-  color: var(--austry-base);
+  color: var(--austry-main);
 }
 
 .service-details__need-help {
   position: relative;
   display: block;
-  padding: 60px 50px 66px;
+  padding: 20px 50px 20px;
   margin-top: 30px;
   text-align: center;
   z-index: 1;
-  background-color: var(--austry-base);
+  background-color: var(--austry-main);
 }
 
 .service-details__need-help-bg {
@@ -16340,7 +16341,7 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: var(--austry-base);
+  background-color: var(--austry-main);
   opacity: 0.10;
   background-blend-mode: luminosity;
   z-index: -1;
@@ -16348,8 +16349,8 @@ ul {
 
 .service-details__need-help-icon {
   position: relative;
-  height: 106px;
-  width: 106px;
+  height: 93px;
+  width: 93px;
   border: 10px solid rgba(var(--austry-white-rgb), .10);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16361,7 +16362,7 @@ ul {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 50%;
-  margin: 0 auto 28px;
+  margin: 0 auto 8px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   z-index: 1;
@@ -16374,7 +16375,7 @@ ul {
   right: 0;
   bottom: 0;
   content: "";
-  background-color: var(--austry-black);
+  background-color: var(--austry-green);
   border-radius: 50%;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -16393,7 +16394,7 @@ ul {
 }
 
 .service-details__need-help-icon:hover span {
-  color: var(--austry-base);
+  color: var(--austry-main);
 }
 
 .service-details__need-help-title {
@@ -16407,7 +16408,7 @@ ul {
 .service-details__need-help-contact {
   position: relative;
   display: block;
-  margin-top: 40px;
+  margin-top: 5px;
 }
 
 .service-details__need-help-contact p {
@@ -16423,14 +16424,14 @@ ul {
 
 .service-details__need-help-contact a {
   font-size: 20px;
-  color: var(--austry-white);
+  color: var(--austry-green);
   font-weight: 800;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .service-details__need-help-contact a:hover {
-  color: var(--austry-black);
+  color: var(--austry-white);
 }
 
 .services-details__right {
@@ -16452,8 +16453,9 @@ ul {
   font-weight: 800;
   line-height: 44px;
   letter-spacing: var(--austry-letter-spacing);
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 21px;
+  color: var(--austry-green);
 }
 
 .services-details__text-1 {
@@ -16477,7 +16479,7 @@ ul {
   left: 0;
   bottom: 0;
   width: 6px;
-  background-color: var(--austry-base);
+  background-color: var(--austry-main);
 }
 
 .services-details__text-box-text {
@@ -16485,7 +16487,7 @@ ul {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: var(--austry-letter-spacing);
-  color: var(--austry-black);
+  color: var(--austry-green);
 }
 
 .service-details__benefit {
