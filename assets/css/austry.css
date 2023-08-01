@@ -5635,7 +5635,7 @@ ul {
 }
 
 .team-one__social a:hover {
-  color: var(--austry-black);
+  color: var(--austry-main);
 }
 
 .team-one__social a+a {
